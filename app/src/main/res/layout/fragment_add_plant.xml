@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/upload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_plant_upload_button"
+            android:background="@color/green"
+            style="@style/TitleTextStyle"
+            android:padding="@dimen/default_margin"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/trending2"
+            android:scaleType="centerCrop"
+            />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/add_plant_page_name_input"
+        style="@style/DefaultTextStyle"
+        />
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/add_plant_page_description_input"
+        style="@style/DefaultTextStyle"
+        />
+
+
+    <Spinner
+        android:id="@+id/grow_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/default_margin"
+        android:entries="@array/add_plant_grow_spinner_input"
+        style="@style/DefaultTextStyle"
+        android:clickable="true"
+        android:paddingLeft="@dimen/default_margin"
+        android:focusable="true" />
+
+    <Spinner
+        android:id="@+id/conso_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:entries="@array/add_plant_consumption_spinner_input"
+        android:paddingLeft="@dimen/default_margin"
+        style="@style/DefaultTextStyle"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/default_margin"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/darkGray"
+        android:text="@string/add_plant_page_confirm_button"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:layout_marginTop="@dimen/default_margin"
+        />
+
+</LinearLayout>

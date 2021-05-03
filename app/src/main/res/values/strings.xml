@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Nature Emoi</string>
+
+
+    <string name="bottom_home_item">Accueil</string>
+    <string name="bottom_collection_item">Collection</string>
+    <string name="bottom_add_plant_item">Ajouter</string>
+
+
+    <!-- Page d'accueil  -->
+
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_last_plant_session">Dernières plantes</string>
+
+    <!-- Page de collection -->
+    <string name="collection_page_tittle">Ma collection</string>
+
+    <!-- Page add plants -->
+
+    <string name="add_plant_page_tittle">Ajout d\'une plante</string>
+    <string name="add_plant_upload_button">Charger image</string>
+    <string name="add_plant_page_name_input">@string/item_plant_name</string>
+    <string name="add_plant_page_description_input">@string/item_plant_description</string>
+
+    <string-array name="add_plant_grow_spinner_input">
+        <item>Croissance : Lente </item>
+        <item>Croissance : Moyenne</item>
+        <item>Croissance : Rapide </item>
+    </string-array>
+
+    <string-array name="add_plant_consumption_spinner_input">
+        <item>Consommation : Basse</item>
+        <item>Consommation : Moyenne</item>
+        <item>Consommation : Elevé</item>
+    </string-array>
+
+    <string name="add_plant_page_confirm_button">Confirmer</string>
+
+    <!-- Fenetre pop up de detail  -->
+
+    <string name="pop_up_plant_name">Plant name</string>
+    <string name="pop_up_plant_description_title">Description</string>
+    <string name="pop_up_plant_description_subtitle">Petite description</string>
+    <string name="pop_up_plant_grow_tittle">Croissance</string>
+    <string name="pop_up_plant_grow_subtittle">Lente</string>
+    <string name="pop_up_plant_water_title">Consommation d\'eau</string>
+    <string name="pop_up_plant_water_subtitle">Basse</string>
+
+
+
+    <!-- Plant custo  -->
+    <string name="item_plant_name">Nom de la plante</string>
+    <string name="item_plant_description">Description de la plante</string>
+
+</resources>
